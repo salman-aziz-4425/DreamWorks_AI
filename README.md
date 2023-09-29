@@ -1,4 +1,4 @@
-# StableDiffusion models and Aws-Sagemaker
+# Stable Diffusion and Aws-Sagemaker
 
 It seems like you want to create an introduction and update your project diagram for "DreamWorks_AI," including the libraries used. Here's an improved version of your introduction and a corrected project diagram link:
 
