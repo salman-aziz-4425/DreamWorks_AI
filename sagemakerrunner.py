@@ -21,7 +21,7 @@ model = Model(
 
 predictor = model.deploy(
     initial_instance_count=1,
-    instance_type="ml.g4dn.12xlarge",
+    instance_type="instance type",
 )
 
 # client = boto3.client('sagemaker-runtime')
