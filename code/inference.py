@@ -91,7 +91,7 @@ class ImageGenerator:
         return bucket, key
     
     def write_image_to_s3(self,image, output_s3uri):
-        s3_client = boto3.client('s3',aws_access_key_id='AKIAWHR4R2GU6XPEPU7W',aws_secret_access_key='Nhez0pPW/BI0HL37cQ01Q80ZreBNRg1bHA01zUPB')
+        s3_client = boto3.client('s3',aws_access_key_id='your_id',aws_secret_access_key='your_key')
         bucket, key = self.get_bucket_and_key(output_s3uri)
         key = f'{key}{uuid.uuid4()}.png'
         buf = io.BytesIO()
