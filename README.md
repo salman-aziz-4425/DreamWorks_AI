@@ -11,6 +11,7 @@ Welcome to the backend of the "DreamWorks_AI" project, where we have deployed a 
 Below is an overview of the project architecture:
 
 
+
 ![image](https://github.com/salman-aziz-4425/DreamWorks_AI/assets/85288719/72e141da-c413-4b63-897d-a8c56467829a)
 
 
@@ -29,3 +30,7 @@ To build and run our project, we've utilized several key libraries:
 5. Diffusers is library to use stable diffusion models they basically provide you pipeline.
 
 These libraries, along with our AWS SageMaker deployment and Hugging Face model, form the core components of the DreamWorks_AI project, allowing us to deliver AI-driven solutions to meet your needs.
+
+**Results:**
+
+![image](https://github.com/salman-aziz-4425/Stable-Diffusion-and-Aws-Sagemaker/assets/85288719/921cba8c-dcef-4bd7-8d7d-ae0c57eaa231)
