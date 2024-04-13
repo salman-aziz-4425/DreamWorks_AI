@@ -59,7 +59,7 @@ class ImageGenerator:
     def get_inputs(self,batch_size,prompt):
         prompts = batch_size * [prompt]
         num_inference_steps = 8
-        return {"prompt": prompts,"num_inference_steps": num_inference_steps,"height":1024,"width":1024,"guidance_scale":1.0,"negative_prompt":"Hd"}
+        return {"prompt": prompts,"num_inference_steps": num_inference_steps,"height":1024,"width":1024,"guidance_scale":1.0}
     
     def convert_to_b64(self, image: Image) -> str:
         buffered = io.BytesIO()
