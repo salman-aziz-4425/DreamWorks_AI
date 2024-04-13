@@ -18,9 +18,9 @@ import time
 import base64
 
 cloudinary.config( 
-  cloud_name = "dp2kxpweg", 
-  api_key = "146544417777163", 
-  api_secret = "7rHxb54Dt4-etTXqJGmTgjAfrDE" 
+  cloud_name = "", 
+  api_key = "", 
+  api_secret = "" 
 )
 
 lcm_lora_id = "latent-consistency/lcm-lora-sdxl"
